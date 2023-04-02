@@ -4,8 +4,8 @@ CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -g
 SRC =	./main.cpp			\
 		./PhoneBook.cpp 	\
-		./Contacts.cpp		\
-		#./Actions.cpp
+		./Contacts.cpp
+
 OBJ = $(SRC:%.cpp=%.o)
 
 all : $(NAME)
